@@ -1,5 +1,5 @@
 [package]
-name = "easy_rust"
+name = "easy_rust_notes"
 version = "0.1.0"
 authors = ["azzamsa <me@azzamsa.com>"]
 edition = "2018"

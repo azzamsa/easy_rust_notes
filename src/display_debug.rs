@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
 
     print!("number: {}", 1); // no newline
     println!("number: {}", 2); // newline

@@ -1,0 +1,16 @@
+image: alpine/3.13
+
+packages:
+  - rust
+  - cargo
+
+sources:
+  - https://git.sr.ht/~azzamsa/easy_rust_notes
+
+environment:
+  project: easy_rust_notes
+
+tasks:
+  - setup: |
+      cd ${project}
+      cargo check

@@ -1,13 +1,12 @@
 // fn: function
 // main: function name
 // (): empty arguments
-fn main() {
-    let name = "azzam";
+pub fn main() {
+    let name = "ferris";
     println!("Hello, {}!", name);
 
     let number = get_number();
     println!("number: {}", number);
-
 
     println!("name: {}", get_name(String::from("world")));
 }
@@ -17,9 +16,10 @@ fn get_number() -> i32{
    8
 }
 
+// function with one parameter
 fn get_name(name: String) -> String{
-    // without ; it will be return value
-   name
+    // you can also use `return`
+   return name;
 }
 
 // NOTE:
